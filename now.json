@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "regions": ["all"],
+  "env": {},
+  "builds": [{ "src": "routes/**/*.ts", "use": "@now/node@canary" }],
+  "routes": [
+    {
+      "src": "^/users",
+      "dest": "/routes/users/all.ts"
+    },
+    {
+      "src": "^/users/(.*)",
+      "dest": "/routes/users/get.ts"
+    },
+    {
+      "src": "^/",
+      "dest": "/routes/hello.ts"
+    }
+  ]
+}

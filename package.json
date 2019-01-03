@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "dependencies": {
+    "micro": "^9.3.3",
+    "micro-match": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/micro": "^7.3.3",
+    "typescript": "^3.2.2"
+  }
+}
